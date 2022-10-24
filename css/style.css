@@ -173,6 +173,9 @@ h3{
 /* ===========================
     pricies css part start
 ============================ */
+#pricing_part{
+    padding-top: 0 !important;
+}
 .pricies_left_item{
     background: #f9f9f9;
     padding: 60px 30px;
@@ -191,6 +194,9 @@ h3{
 /* ===========================
     clining contact p css part start
 ============================ */
+#book_clining_part{
+    padding-top: 0 !important;
+}
 .clining_contact_form input {
 	width: 18%;
 	height: 40px;
