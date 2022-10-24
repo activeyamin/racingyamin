@@ -61,6 +61,12 @@ h3{
     color: #ffc107;
     transition: .4s;
 }
+.default_nav_active::after {
+    width: 100% !important;
+}
+.default_nav_active{
+    color: #ffc107 !important;
+}
 .nav-link::after {
     width: 0%;
     height: 2px;
@@ -72,7 +78,7 @@ h3{
     transition: .5s;
 }
 .nav-link:hover{
-    color: #ffc107 !important;
+    color: #ffc107;
 }
 .nav-link:hover::after{
     width: 100%;
@@ -119,13 +125,20 @@ h3{
 .about_sub_title{
     margin: 14px 25px;
 }
-.about_round{
-    margin: 25px auto;
+.about_round {
+	position: absolute;
+	right: 100px;
+	top: 10px;
 }
 .rounded-circle {
-	border-radius: 50%;
 	outline: 2px solid rgb(115 146 255);
-	padding: 15px 20px;
+	margin-left: 42%;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	overflow: hidden;
+	margin-top: 20px;
 }
 .about_sub_title strong{
     margin: 14px;
@@ -154,15 +167,15 @@ h3{
 ============================ */
 .pricies_left_item{
     background: #f9f9f9;
-    padding: 30px;
+    padding: 60px 30px;
 }
 .pricing_horizontal_line_ship {
-	width: 70%;
+	width: 62%;
 	height: 2px;
 	background: rgb(115 146 255);
-	margin-left: 20px;
+	margin-left: 30px;
 	display: inline-block;
-	margin-right: 10px;
+	position: absolute;
 }
 /* ===========================
     pricies css part end
@@ -173,11 +186,18 @@ h3{
 .clining_contact_form input {
 	width: 18%;
 	height: 40px;
-    margin: 14px;
+	margin-top: 35px;
+	margin-left: -40px;
+	position: relative;
+	margin-right: 15px;
 }
-.contact_select_width{
-    width: 18% !important;
-    display: inline-block;
+
+.contact_select_width {
+	width: 18% !important;
+	display: inline-block;
+	margin-left: -100px;
+	margin-top: 35px;
+	height: 40px;
 }
 .contact_form_btn a{
     padding: 5px 30px;
